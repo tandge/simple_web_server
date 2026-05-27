@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LightWebServer</title>
+    <style>
+        body { font-family: sans-serif; max-width: 640px; margin: 40px auto; color: #333; }
+        h1 { color: #2c3e50; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+        a { color: #3498db; }
+    </style>
+</head>
+<body>
+    <h1>LightWebServer is running!</h1>
+    <p>A lightweight HTTP server powered by epoll + Reactor + ThreadPool.</p>
+    <h2>API Endpoints</h2>
+    <ul>
+        <li><code>GET /api/hello</code> &mdash; Returns a JSON greeting</li>
+        <li><code>POST /api/echo</code> &mdash; Echoes the request body back</li>
+    </ul>
+    <h2>Static Files</h2>
+    <p>Place files in the <code>www/</code> directory. They will be served at the root path.</p>
+</body>
+</html>
